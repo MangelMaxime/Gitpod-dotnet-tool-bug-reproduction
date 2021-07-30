@@ -1,0 +1,11 @@
+image:
+  file: .docker/Dockerfile
+
+tasks:
+  - init: dotnet tool restore
+
+vscode:
+  extensions:
+    - christian-kohler.path-intellisense
+    - mrmlnc.vscode-scss
+    - Ionide.Ionide-fsharp
